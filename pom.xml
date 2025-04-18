@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.nageoffer.onecoupon</groupId>
     <artifactId>onecoupon-all</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <description>
-        🔥热门推荐🔥牛券系统，春招、秋招、应届、社招项目。SpringBoot3+Java17+SpringCloudAlibaba+RocketMQ+ElasticSearch等技术架构，完成优惠券秒杀+分发+结算+搜索等服务，帮助学生主打就业的项目。
-    </description>
-
-    <developers>
-        <developer>
-            <name>马丁</name>
-            <email>machen@apache.org</email>
-            <url>https://github.com/magestacks</url>
-            <organization>Apache and openGoofy</organization>
-        </developer>
-
-        <developer>
-            <name>优雅</name>
-            <email>elegance520@163.com</email>
-        </developer>
-
-        <developer>
-            <name>Henry</name>
-            <email>yzwh0102@qq.com</email>
-        </developer>
-    </developers>
 
     <modules>
         <!-- 基础架构模块：仅包含公共内容，一个包引入构建所有组件 -->
@@ -44,7 +21,7 @@
         <module>engine</module>
         <!-- 为何其他模块仅一个单词，而后管是两个？ -->
         <!-- 这是因为在企业的实际运营中，并非仅有单一的优惠券管理后台，而是普遍存在统称为“商家后台”的多功能管理平台 -->
-        <module>merchant-admin</module> <!-- 后管模块：创建优惠券、店家查看以及管理优惠券、创建优惠券发放批次等 -->
+        <module>merchant-admin</module>        <!-- 后管模块：创建优惠券、店家查看以及管理优惠券、创建优惠券发放批次等 -->
         <!-- 网关模块：提供动态路由、日志记录以及限流熔断等功能 -->
         <module>gateway</module>
     </modules>
