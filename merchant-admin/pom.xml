@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.nageoffer.onecoupon</groupId>
-        <artifactId>onecoupon-all</artifactId>
+        <groupId>com.nageoffer.rocketCoupon</groupId>
+        <artifactId>rocketCoupon-all</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>onecoupon-merchant-admin</artifactId>
+    <artifactId>rocketCoupon-merchant-admin</artifactId>
 
     <dependencies>
         <!-- SpringBoot Web 服务器相关依赖 -->
@@ -23,10 +23,10 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- 牛券基础架构组件包相关依赖 -->
+        <!-- 优惠券基础架构组件包相关依赖 -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>onecoupon-framework</artifactId>
+            <artifactId>rocketCoupon-framework</artifactId>
             <version>${project.version}</version>
         </dependency>
 

@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.nageoffer.onecoupon</groupId>
-    <artifactId>onecoupon-all</artifactId>
+    <groupId>com.nageoffer.rocketCoupon</groupId>
+    <artifactId>rocketCoupon-all</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -199,7 +199,7 @@
                 <configuration>
                     <java>
                         <!--<eclipse>
-                            <file>${maven.multiModuleProjectDirectory}/format/one-coupon_spotless_formatter.xml</file>
+                            <file>${maven.multiModuleProjectDirectory}/format/rocket-coupon_spotless_formatter.xml</file>
                         </eclipse>-->
                         <licenseHeader>
                             <!-- ${maven.multiModuleProjectDirectory} 爆红属于正常，并不影响编译或者运行，忽略就好 -->
